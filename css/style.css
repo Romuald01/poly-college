@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family:Helvetica;
+}
+.content-headings-main{
+font-size: 5rem;
+color:yellow;
+}
+
+.our-achievement-box{
+     background: #0E0E0E;
+}
+
+.achievement-box{
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+.content-headings{
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-family:Helvetica;
+}
+.content-heading-div{
+    background-color: red;
+    margin-top: -5%;
+}
+
+
+.best-school-box{
+    margin: px;
+}
+
+.best-school-heading{
+    color: #009631;
+    width: 282px;
+    font-size: 2.6rem;
+    line-height: 30px;
+    font-weight: 400;
+    
+}
+.best-school-paragraph{
+    width: 282px;
+    color:#FFFFFF;
+    font-size: 1.8rem;
+    height: 300px;
+    padding-right: 20px;
+}
+
+.best-school-box{
+    height:300px;
+    display: flex;
+    margin-bottom: 10%;
+}
+
+.video-container{
+    background-color: #EDEDED;
+}
+
+.video-content-box{
+    border: 1px solid green;
+    width: 50%;
+    margin: auto;
+    height: 300px;
+}
+
+.video-headings{
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+
+}
+.video-text{
+    font-weight: 400;
+}
+
+.video-text{
+    color:rgba(196, 196, 196, 0.17);
+    font-weight: bold;
+}
+
+.new-content-box{
+    /* border:1px solid green; */
+    /* margin:10px; */
+    font-family: Helvetica;
+}
+.news-image{
+width: 100%;
+background-size: cover;
+}
+
+.news-heading-text{
+width: 385px;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0.02em;
+text-align: left;
+
+}
+.news-date{
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0.02em;
+text-align: justified;
+
+}
+
+.news-paragraph-text{
+    width: 385px;
+    padding-right: 35px;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    text-align: justified;
+}
+
+.footer{
+        background-color: rgba(0, 150, 49, 1);
+        color:#FFFFFF;
+        font-family: Helvetica;
+        margin-top: 7%;
+}
+
+.footer-content-container{
+    margin-top: 7%;
+
+}
+
+.address.logo{
+    width: 30px;
+    height: 30px;
+}
+.address-text{
+    height: 35px;
+    width: 263px;
+    left: 122px;
+    top: 4535px;
+    border-radius: 0px;
+font-size: 16px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0.02em;
+text-align: justified;
+
+    
+}
+.address-text{
+    display:block
+}
+.social-media-logo{
+    width: 19.53px;
+    margin: 10px;
+}
+
+.footer-list-heading{
+font-size: 1.8rem;
+font-style: normal;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0.02em;
+text-align: justified;
+}
+
+.footer-lists{
+    list-style-type: none;
+}
+.footer-list-link{
+    color:#FFFFFF;
+font-size: 1.6rem;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0.02em;
+text-align: justified;
+padding: 10px;
+}
+.footer-list-link:hover{
+    text-decoration: none;
+}
+.copyright-box{
+    background: rgba(6, 6, 6, 1);
+    font-size: 1.6rem;
+}
+
+
+/* ===================================media query start here==================================== */
+@media screen and (max-width:1024px){
+    body{
+        background-color:red;
+        /* display: none; */
+    }
+    .news-update-box{
+        display:none;
+    }
+    .our-achievement-box{
+        display:none;
+    }
+}
+
+@media screen and (max-width:990px){
+}
+@media screen and (max-width:900px){
+}
+@media screen and (max-width:768px){
+}
+@media screen and (max-width:767px){
+}
+@media screen and (max-width:600px){
+}
+@media screen and (max-width:425){
+
+}
+
+@media screen and (max-width:375){
+    
+}
+@media screen and (max-width:320){
+    
+}
