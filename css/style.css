@@ -8,29 +8,211 @@ html{
     font-size: 62.5%;
     font-family:Helvetica;
 }
-.content-headings-main{
-font-size: 5rem;
-color:yellow;
+
+.navbar_black{
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    
+}
+.navbar_menu-list{
+    display: flex;
+    list-style-type: none;
+    position: absolute;
+    right: 0px;
+}
+.black_navbar li{
+    margin-right: 30px;
+}
+.black_navbar a{
+    color: white;
+    font: Helevetica;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 16.1px;
+}
+.navbar_menu-list .navbar-lists{
+    color: #CC9933;
+}
+.fpi_logo{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar_logo{
+    padding-top: 30px;
+}
+.logo_list{
+    display: flex;
+    list-style-type: none;
+    margin-top: 35px
+    /* position: absolute; */
+}
+.header_lists{
+    display: flex;
+    position: absolute;
+    right: 0;
+    /* border:1px solid green; */
+    font-size: 1.6rem;
+}
+
+.header_list{
+    margin-right: 30px;
+}
+.header-link{
+    color: black;
+    padding:2px;
+}
+.first-child{
+    color:#009631;
+}
+.apply-now-box{
+    color: white;
+    padding: 4px;
+    border: 1px solid red;
+    background-color: #009631;
+    display: inline-block;
+    height: 40px;
+}
+ .header_button{
+    list-style-type: none;
+}
+.pic_back{
+       background-image: url(../images/Rectangle\ 5.png);
+       background-size: cover;
+       background-repeat: no-repeat;
+       height: 800px;
+}
+.welcome{
+    color: white;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+.welcome-text{
+    font-size: 3rem;
+}
+.welcome-paragraph{
+    font-size: 1.6rem;
+}
+.welcome h2{
+    /* border: 2px solid red; */
+    width: 50%;
+    font-size: 40px;
+    background-color:#009631 ;
+}
+.read{
+    padding-top: 150px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    display: flex;
+}
+.pic h2{
+    font-size: 20px;
+}
+.pic h3{
+    color: #009631;
+}
+.pic h4{
+    font-size: 15px;
+}
+.pic button{
+    background-color: #CC9933;
+    border: none;
+    padding: 20px;
+}
+
+.apply-text{
+    font-size: 1.8rem;
+    text-decoration: underline;
+    color:rgba(0, 0, 0, 1);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.apply-arrow{
+    margin-left:10px;
+}
+
+.principal-pic{
+    padding-right: 90px;
+    padding-left: 60px;
+}
+.apply-admission-div{
+    background-image:url(../images/Rectangle11.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 580px;
+}
+.admission{
+    padding-left: 90px;
+    padding-top: 60px;
+}
+.school{
+    max-width: 40%;
+    height: 40%;
+}
+
+.first-img{
+    position: relative;
+    height: 300px;
+    width: 400px;
+    z-index:1;
+}
+.second-img{
+    position: absolute;
+    top: 19%;
+    right: 2%;
+    height: 174px;
+    width: 280px;
+    z-index:2;
+    border:1px solid goldenrod;
+}
+.third-img{
+    position: relative;
+    top: -168px;
+    left: 14%;
+    height: 229px;
+    width: 300px;
+    z-index:3;
+
+}
+
+.admission-paragraph{
+    font-size: 1.6rem;
+}
+.apply_now{
+    padding-top: 5%;
+    color: #fff;
+    width: 330px;
+}
+.apply_now button{
+ background-color: #CC9933;
+    border: none;
+    padding: 20px;   
 }
 
 .our-achievement-box{
      background: #0E0E0E;
 }
 
-.achievement-box{
-    margin-top: 2%;
-    margin-bottom: 5%;
-}
-.content-headings{
-    color: #FFFFFF;
-    font-size: 2rem;
-    font-family:Helvetica;
-}
-.content-heading-div{
-    background-color: red;
-    margin-top: -5%;
+
+.content-heading-main{
+    font-size: 5rem;
+    position:relative; 
+    z-index: 1;
 }
 
+.content-heading-sub{
+    position:absolute; 
+    z-index: 2;
+    right: 43%;
+    font-size: 2rem;
+    top: 35%;
+    color: #FFFFFF;
+}
 
 .best-school-box{
     margin: px;
@@ -58,6 +240,14 @@ color:yellow;
     margin-bottom: 10%;
 }
 
+.text-main{
+    color: rgba(196, 196, 196, 0.17);
+
+}
+.text-sub{
+    color: #0E0E0E;
+
+}
 .video-container{
     background-color: #EDEDED;
 }
@@ -84,8 +274,6 @@ color:yellow;
 }
 
 .new-content-box{
-    /* border:1px solid green; */
-    /* margin:10px; */
     font-family: Helvetica;
 }
 .news-image{
@@ -192,10 +380,11 @@ padding: 10px;
 }
 
 
+
 /* ===================================media query start here==================================== */
 @media screen and (max-width:1024px){
     body{
-        background-color:red;
+        /* background-color:red; */
         /* display: none; */
     }
     .news-update-box{
@@ -216,13 +405,10 @@ padding: 10px;
 }
 @media screen and (max-width:600px){
 }
-@media screen and (max-width:425){
-
+@media screen and (max-width:425px){
 }
-
-@media screen and (max-width:375){
-    
+@media screen and (max-width:375px){
 }
-@media screen and (max-width:320){
+@media screen and (max-width:320px){
     
 }
