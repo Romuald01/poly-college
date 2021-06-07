@@ -9,34 +9,63 @@ html{
     font-family:Helvetica;
 }
 
-.navbar_black{
-    background-color: black;
-    position: absolute;
-    width: 100%;
-    height: 30px;
-    left: 0px;
-    top: 0px;
-    
+.first-nav{
+    background-color: #0E0E0E;
+    color:#FFFFFF
 }
-.navbar_menu-list{
-    display: flex;
-    list-style-type: none;
-    position: absolute;
-    right: 0px;
+
+.navbar-menu-list .navbar-list{
+    display: inline-block;  
 }
-.black_navbar li{
-    margin-right: 30px;
+
+.navbar-menu-list .navbar-link:hover{
+text-decoration: none;
+color: #0E0E0E;
+
 }
-.black_navbar a{
-    color: white;
-    font: Helevetica;
-    font-weight: 400;
+.navbar-link{
+    color:#0E0E0E;
     font-size: 1.6rem;
-    line-height: 16.1px;
+    padding: 5px;
+}
+
+
+.first-nav .navbar-menu-list .navbar-link{
+    color:#FFFFFF;
+}
+
+.first-nav .navbar-menu-list .parent{
+    color:#CC9933;
+}
+
+.general-nav{
+    border: 1px solid green;
+}
+
+.navbar-box{
+    margin-top: 3%;
+}
+
+.navbar-apply-button-box{
+    background-color: #009631;
+}
+
+.nav-apply-button{
+color:#EDEDED;
+position: absolute;
+margin-top: 35%;
+font-size: 1.4rem;
+font-weight: 700;
+}
+
+.nav-apply-button:hover{
+    text-decoration: none;
+    color:#EDEDED;
 }
 .navbar_menu-list .navbar-lists{
     color: #CC9933;
 }
+
 .fpi_logo{
     display: flex;
     justify-content: space-between;
@@ -44,30 +73,18 @@ html{
 .navbar_logo{
     padding-top: 30px;
 }
-.logo_list{
-    display: flex;
-    list-style-type: none;
-    margin-top: 35px
-    /* position: absolute; */
-}
-.header_lists{
-    display: flex;
-    position: absolute;
-    right: 0;
-    /* border:1px solid green; */
-    font-size: 1.6rem;
-}
 
-.header_list{
-    margin-right: 30px;
-}
-.header-link{
-    color: black;
-    padding:2px;
-}
-.first-child{
-    color:#009631;
-}
+
+
+
+
+
+
+
+
+
+
+
 .apply-now-box{
     color: white;
     padding: 4px;
