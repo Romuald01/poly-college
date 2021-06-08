@@ -815,5 +815,79 @@ padding: 10px;
 
 }
 @media screen and (max-width:320px){
+    .main-logo{
+        width: 180PX;
+    }
+    .welcome{
+        width: 200px;
+        right: 33%;
+    }
+    .welcome-logo{
+        width: 255px;
+    }
+    .building-box{
+        left: 0;
+        width: 300px;
+    }
+
+    .first-img{
+        height: 200px;
+        right: 7%;
+        width: 200px;
+    }
+    .second-img{
+        right: 6%;
+        top: 16%;
+        height: 112px;
+       
+        
+    }
+.third-img{
+  
+     top: -101px;
+     height: 150px;
+     width: 160px;
+         margin-left:-16%;
+}
+
+    .apply-addmission-div{
+       height: 900px
+    }
     
+    .building-box{
+        height: 300px;
+    }
+
+    .apply-now{
+        top: 277%;
+    }
+    .content-heading-sub{
+        right: 29%;
+    }
+
+     .video-sub{
+        right: 35%;
+    }
+
+    .best-school-container{
+        margin-left: -5%;
+    }
+    .best-school-paragraph{
+       padding-right: 56px;
+    }
+
+    .news-heading-text{
+        width: 280px;
+    }
+    .news-paragraph-text{
+        width: 280px;
+        padding-right: 3px;    
+    }
+    .news-date{
+        width: 285px;
+    }
+   
+    .address-text{
+           width: 200px;
+    }
 }
