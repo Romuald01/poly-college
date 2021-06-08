@@ -14,6 +14,25 @@
         <title>Poly International College</title>
     </head>
 <body>
+    <!-- mobile nav start here -->
+    <div id="myNav" class="overlay">
+        <div class="mobilenav-overlay-header">
+        <img src="images/header-logo 1.jpg" alt="polycollege-logo" class="polycollege-logo" style="margin-top:5%;">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="images/icon-close.svg" alt="icon-close" class="closeNav">
+        </a>
+      </div>
+        
+        <div class="overlay-content">
+          <a href="#">Home</a>
+          <a href="#">About US</a>
+          <a href="#">Academics</a>
+          <a href="#">admission</a> 
+          <a href="#">Gallery</a>
+          <a href="#">Contact </a>
+
+        </div>
+      </div>
+    <!-- mobile nav stop here -->
     <div class="container-fluid">
         <div class="row ">
             <div class="col-md-12 first-nav">
@@ -43,22 +62,25 @@
                 </div>
                 <div class="col-md-1 navbar-apply-button-box">
                     <a class="nav-apply-button">
-                        Apply Now<img src="images/arrow-right1.jpg" alt="arrow-right">
+                        Apply Now<img src="images/arrow-right1.jpg" alt="arrow-right" class="pl-2">
                     </a>
                 </div>
+                <img src="images/icon-hamburger.svg" alt="icon-hamburger"  onclick="openNav()" class="hamburger-icon" style="margin-top:5%;">
         </div>
-        <section class="row pic_back">
-            <div class="col-md-12 welcome">
-                <p class="welcome-text">Welcome to</p>
-                <h2>
-                    POLY INTERNATIONAL <br />
-                    COLLEGE
-                </h2>
+        <div class="row pic-back">
+            <div class="col-md-12 wlcome">
+                <div class="welcome">
+                    <p class="welcome-text">Welcome to</p>
+                    <h2>
+                        POLY INTERNATIONAL <br />
+                        COLLEGE
+                    </h2>
             </div>
-        </section>
+            </div>
+        </div>
         <div class="container">
-            <div class="col-md-12 read">
-                <div class="col-md-6 pic">
+            <div class="row principal-box">
+                <div class="col-md-7 pic">
                     <img src="images/Welcome.jpg" alt="welcome-logo">
                     <p class="welcome-paragraph">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
@@ -76,28 +98,28 @@
                     </p>
                     <h4>Dr Adewale Oguniti</h4>
                     <p>Principal</p>
-                    <button><a href="" class="apply-button">
+                    <button class="apply-button">
                         <a href="" class="apply-text">Read More
                             <img src="images/arrow-right-black.jpg" alt="apply-arrow" class="apply-arrow">
                         </a>
                     </button>
                 </div>
-                <div class="col-md-6 principal-pic">
-                    <img src="images/Rectangle 10.jpg" alt="principal-picture"/>
+                <div class="col-md-5 principal-pic">
+                    <img src="images/Rectangle 10.jpg" alt="principal-picture" class="principal-img"/>
                 </div>
             </div>
         </div>
-        <section class="row apply-admission-div">
+        <section class="row apply-addmission-div">
             <div class="container">
-            <div class="row">
-                <div class="col-md-6 admission mt-5 bord">
-                    <div class="building-box">
+            <div class="row addmission-div">
+                <div class="col-md-6 addmission mt-5 bord">
+                    <div class="building-box ">
                       <div class="first-img-div"><img src="images/Rectangle12.jpg" alt="school-building" class="first-img"/></div>
                         <div class="second-img-div"><img src="images/Rectangle13.jpg" alt="school-building" class="second-img"/></div>
                        <div class="third-img-div"><img src="images/Rectangle 14.jpg" alt="school-building" class="third-img"/></div> 
                     </div>
                 </div>
-                <div class="col-md-6 apply_now mt-5 bord">
+                <div class="col-md-6 apply-now mt-5 bord">
                     <h3>Apply for 2020/2021 Admission</h3>
                     <p class="admission-paragraph">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
@@ -130,7 +152,7 @@
                         <h1 class="text-center content-heading-sub">our achievement</h1>
                     </div>
                 </div> 
-                <div class="row mt-5">
+                <div class="row  best-school-container mt-5">
                     <div class="col-md-4 best-school-box">
                                 <div class="best-school-icon mt-2">
                                     <img src="images/Vector1.jpg" alt="vector-logo" class="vector-logo">
@@ -144,7 +166,7 @@
                                     </p>
                                 </div>
                     </div>
-                    <div class="col-md-4 best-school-box">
+                    <div class="col-md-4 best-school-box second-best-div">
                             <div class="best-school-icon mt-2">
                                 <img src="images/Vector2.jpg" alt="vector-logo" class="vector-logo">
                             </div>
@@ -157,7 +179,7 @@
                                 </p>
                             </div>
                         </div>
-                    <div class="col-md-4 best-school-box">
+                    <div class="col-md-4 best-school-box third-best-div">
                         <div class="best-school-icon mt-2">
                             <img src="images/Vector1.jpg" alt="vector-logo" class="vector-logo">
                         </div>
@@ -190,10 +212,16 @@
                                 Mauris id viverra leo, in convallis risus. 
                             </p>
                         </div>
-                        <div class="video-content-box mt-3 mb-5">
-                            <video width="570" height="300" controls>
+                        <div class="video-content-box mt-3 mb-5 d-nne">
+                            <video width="570" height="300" controls class="video-main">
                                 <source src="video/Software engineer.mp4" type="video/mp4">
                             </video>
+                            <!-- <div class="video-overlay">
+                                <img src="images/video-img.jpg" alt="video-img" class="video-img">
+                            </div>
+                            <div class="video-play"> 
+                                <img src="images/play-logo.svg" alt="video-img" class="play-icon">
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -259,14 +287,14 @@
                 <footer class="row footer">
                     <div class="container">
                         <div class="row footer-content-container">
-                            <div class="col-md-4 fotter-content-boxes">
+                            <div class="col-md-4 footer-address-content">
                                 <div class="address-box">
                                     <div class="address-circle">
                                         <img src="images/Ellipse1.jpg" alt="Ellipse1-logo" class="address-logo">
                                     </div>
                                     <p class="address-paragraph">
                                         <span class="address-text">The Federal Polytechnic,</span>
-                                        <span class="address-text"> Ilaro,</span>
+                                        <span class="address-text">Ilaro,</span>
                                      <span class="address-text"> Ogun State.</span>
                                     </p>
                                 </div>
@@ -287,7 +315,7 @@
                                         </ul>
                                     </div>
                                     <div class="col-md-4">
-                                        <h4 class="footer-list-heading">Menu</h4>
+                                        <h4 class="footer-list-heading footer-heading-bottom">Menu</h4>
                                         <ul class="footer-lists mt-5">
                                             <li class="footer-list-item"><a href="#" class="footer-list-link">Home</a></li>
                                             <li class="footer-list-item"><a href="#" class="footer-list-link">About</a></li>
@@ -296,7 +324,7 @@
                                         </ul>
                                     </div>
                                     <div class="col-md-4">
-                                        <h4 class="footer-list-heading">Downloads</h4>
+                                        <h4 class="footer-list-heading footer-heading-bottom">Downloads</h4>
                                         <ul class="footer-lists mt-5">
                                             <li class="footer-list-item"><a href="#" class="footer-list-link">Home</a></li>
                                             <li class="footer-list-item"><a href="#" class="footer-list-link">About</a></li>
@@ -317,5 +345,6 @@
                 </footer>
                 <!-- footer ends here -->
     </div>
+    <script src="js/app.js"></script>  
 </body>
 </html>

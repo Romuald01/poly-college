@@ -38,10 +38,6 @@ color: #0E0E0E;
     color:#CC9933;
 }
 
-.general-nav{
-    border: 1px solid green;
-}
-
 .navbar-box{
     margin-top: 3%;
 }
@@ -75,17 +71,6 @@ cursor: pointer;
     padding-top: 30px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .apply-now-box{
     color: white;
     padding: 4px;
@@ -97,7 +82,7 @@ cursor: pointer;
  .header_button{
     list-style-type: none;
 }
-.pic_back{
+.pic-back{
        background-image: url(../images/Rectangle\ 5.png);
        background-size: cover;
        background-repeat: no-repeat;
@@ -105,27 +90,27 @@ cursor: pointer;
 }
 .welcome{
     color: white;
-    padding-top: 200px;
-    padding-left: 100px;
+    position: absolute;
+    top: 32%;
+    right: 63%;
+    /* width: 100%; */
 }
 
 .welcome-text{
     font-size: 3rem;
 }
 .welcome-paragraph{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
+    color:#0E0E0E;
 }
 .welcome h2{
-    /* border: 2px solid red; */
-    width: 50%;
-    font-size: 40px;
+    font-size: 4rem;
     background-color:#009631 ;
 }
-.read{
-    padding-top: 150px;
-    padding-left: 50px;
-    padding-bottom: 50px;
-    display: flex;
+
+.principal-box{
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 .pic h2{
     font-size: 20px;
@@ -153,20 +138,25 @@ cursor: pointer;
 .apply-arrow{
     margin-left:10px;
 }
-
-.principal-pic{
-    padding-right: 90px;
-    padding-left: 60px;
+.apply-button{
+    margin-top: 3%;
 }
-.apply-admission-div{
+
+.principal-img{
+width:100%;
+display: block;
+height: 100%;
+object-fit: cover;
+}
+.apply-addmission-div{
     background-image:url(../images/Rectangle11.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 580px;
 }
-.admission{
-    padding-left: 90px;
-    padding-top: 60px;
+
+.addmission{
+    padding-top: 6%;
 }
 .school{
     max-width: 40%;
@@ -181,8 +171,8 @@ cursor: pointer;
 }
 .second-img{
     position: absolute;
-    top: 19%;
-    right: 2%;
+    top: 21%;
+    right: 15%;
     height: 174px;
     width: 280px;
     z-index:2;
@@ -190,7 +180,7 @@ cursor: pointer;
 }
 .third-img{
     position: relative;
-    top: -168px;
+    top: -160px;
     left: 14%;
     height: 229px;
     width: 300px;
@@ -258,6 +248,12 @@ cursor: pointer;
     margin-bottom: 10%;
 }
 
+.vector-logo{
+    display: block;
+    height: 20%;
+    display: block;
+}
+
 .text-main{
     color: rgba(196, 196, 196, 0.17);
 
@@ -271,25 +267,37 @@ cursor: pointer;
 }
 
 .video-content-box{
-    border: 1px solid green;
     width: 50%;
     margin: auto;
-    height: 300px;
+    height: 258px;
+    border: 1px solid gold;
+    margin-bottom: 3%;
 }
 
-.video-headings{
-    font-weight: 700;
-    color: rgba(0, 0, 0, 1);
+.video-main{
+    position: relative;
+    z-index:2;
+    right:0%;
+    width: 100%;
+    top:-17%;
 
 }
-.video-text{
-    font-weight: 400;
+
+/* .video-img{
+    position: relative;
+    z-index:1;
+    right: 0%;
+    width: 100%;
+    top: 307%;
+    height: 296px;
 }
 
-.video-text{
-    color:rgba(196, 196, 196, 0.17);
-    font-weight: bold;
-}
+.play-icon{
+    position: absolute;
+    z-index:2;
+     right:46%;
+    margin-top: -16%;
+} */
 
 .new-content-box{
     font-family: Helvetica;
@@ -301,7 +309,7 @@ background-size: cover;
 
 .news-heading-text{
 width: 385px;
-font-size: 18px;
+font-size: 1.7rem;
 font-style: normal;
 font-weight: 700;
 line-height: 25px;
@@ -398,29 +406,323 @@ padding: 10px;
 }
 
 
-
 /* ===================================media query start here==================================== */
 @media screen and (max-width:1024px){
-    body{
-        /* background-color:red; */
-        /* display: none; */
+    .first-img{
+        height: 300px;
+        width: 300px;
     }
-    .news-update-box{
-        display:none;
-    }
-    .our-achievement-box{
-        display:none;
+    .third-img{
+        width:210px;
     }
 }
 
 @media screen and (max-width:990px){
+    .welcome-paragraph{
+        font-size: 1.4rem;
+    }
+    .principal-img{
+        object-fit:none;
+        height: initial;
+    }
+
+    .first-img{
+        width: 270px;
+    }
+    .second-img{
+        width: 202px;
+        top:18%;
+        right: 10%;
+    }
+    .third-img{
+        width:200px;
+    }
+    .best-school-content{
+        padding-left: 3px;
+    }
+
+    .admission-paragraph{
+        font-size: 1.4rem;
+        
+    }
+
+    .best-school-heading{
+        width: 158px;
+        font-size: 1.8rem;
+    }
+
+    .best-school-paragraph{
+        width: 230px;
+        font-size: 1.5rem;
+    }
+
+    .play-icon{
+        width: 70px;
+        right:46% ;
+        margin-top:-18%;
+    }
+
+    .news-heading-text{
+        width: 280px;
+        font-size: 1.4rem;
+    }
+
+    .news-paragraph-text{
+        width: 260px;
+    }
 }
+
 @media screen and (max-width:900px){
+
 }
 @media screen and (max-width:768px){
+.pic-back{
+    height: 388px;
+}
+.news-heading-text{
+    border:1px solid red ;
+}
+
+.news-paragraph-text{
+    border:1px solid green;
+    width:210px;
+    font-size: 1.6rem;
+    padding-right: 1px;
+}
+
+.welcome{
+    top:23%;
+    right: 51%;
+}
+
+.welcome h2{
+    font-size: 3rem;
+}
+ .best-school-paragraph{
+    width: 178px;
+    font-size: 1.4rem;
+    
+ }
+
+ .content-heading-sub{
+     right: 39%;
+ }
+
+.news-heading-text{
+    width: 210px;
+}
+}
+
+
+@media screen and (min-width:768px){
+    .hamburger-icon,.overlay,.mobile-socialmedia,.mobile-seealldiv{
+        display: none;
+    }
+
 }
 @media screen and (max-width:767px){
+    .lists,.second-nav,.navbar-apply-button-box{
+        display: none;
+    }
+  
+.hamburger-icon{
+      display: block;
+      right:5%;
+      position: absolute;
+    }
+    /* styling of full overlay nav start here */
+    .polycollege-logo{
+        position: absolute;
+        left:6%;
+    }
+    
+    .overlay {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: hsl(0, 0%, 0%);
+        background-color: hsl(0,0,0, 0.9);
+        overflow-x: hidden;
+        transition: 0.5s;
+      } 
+      
+      .overlay-content {
+        position: relative;
+        top: 25%;
+        width: 30%;
+        text-align: center;
+        margin-top: -36px;
+      }
+      
+      .overlay a {
+        padding: 8px;
+        text-decoration: none;
+        font-size: 36px;
+        color: hsl(0, 0%, 100%);
+        display: block;
+        transition: 0.3s;
+      }
+      
+      .overlay a:hover, .overlay a:focus {
+        color: #f1f1f1;
+      }
+      
+      .closeNav{
+        position: absolute;
+        top: 8%;
+        right: 45px;
+      }
+
+    /* styling of full overlay nav stop here */
+    .text-right{
+        text-align: center !important;
+    }
+
+    .principal-box{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .principal-pic{
+        order: -1;
+    }
+
+    .addmission-div{
+        text-align: center;
+    }
+
+    .first-img{
+        height: 280px;
+    }
+    .second-img{
+        top:17%;
+        right:14%;
+    }
+
+    .third-img{
+        left:2%;
+    }
+
+    .best-school-heading{
+        width: 206px;
+    }
+   
+    .best-school-paragraph{
+        width: 264px;
+        border: 1px solid green;
+        height: 150px;
+        padding-right:2px;
+    }
+
+    .best-school-box{
+        margin-top: 4%;
+    }
+
+    .best-school-container{
+       margin-left: 10%;
+    }
+
+    .second-best-div,.third-best-div{
+        margin-top: -20%;
+
+    }
+    .second-best-div{
+        margin-left: -4%;
+    }
+
+    .new-content-box{
+        margin-top: 10%;
+    }
+
+    .news-image{
+        border: 1px solid green;
+    }
+
+    .apply-now{
+        /* margin-top:-10%; */
+        display: none;
+    }
+
+    .apply-addmission-div{
+        height: 750px;
+    }
+
+    .our-achievement-box{
+        margin-top: 10%;
+    }
+    .news-heading-text,.news-date,.news-paragraph-text{
+        width: 400px;
+        margin: 0 auto;
+    }
+    .news-text-box{
+        margin:0 auto;
+        /* width: 50%; */
+    }
+
+    .footer-address-content{
+        border:1px solid yellow;
+        margin:0 auto;
+        width: 50%;
+    }
+
+    .social-media-box{
+      margin-left: 33%;
+    }
+
+   .address-circle .address.logo{
+        height: 200px;
+        width: 150px;
+    }
+
+    .footer-content-container{
+        text-align: center;
+    }
+
+    .footer-list-heading{
+        margin-bottom:-5%;
+    }
+
+    .footer-lists{
+                margin-top: -10%;
+    }
+
+    .footer-heading-bottom{
+        margin-top: 4%; 
+    }
+    .video-main{
+        top:-29%;
+        height: 235px;
+    }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:600px){
 }
 @media screen and (max-width:425px){
