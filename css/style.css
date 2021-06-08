@@ -726,6 +726,10 @@ padding: 10px;
     .welcome-logo{
         margin-top: 6%;
     }
+    
+.social-media-box{
+    margin-left: 25%;
+}
 
 }
 
@@ -815,6 +819,7 @@ padding: 10px;
 
 }
 @media screen and (max-width:320px){
+
     .main-logo{
         width: 180PX;
     }
@@ -875,6 +880,9 @@ padding: 10px;
     .best-school-paragraph{
        padding-right: 56px;
     }
+    .content-heading-main{
+        font-size: 3rem;
+    }
 
     .news-heading-text{
         width: 280px;
@@ -886,7 +894,6 @@ padding: 10px;
     .news-date{
         width: 285px;
     }
-   
     .address-text{
            width: 200px;
     }
